@@ -11,3 +11,5 @@
 - [x] Re-validate the updated homepage and media editor at mobile/tablet breakpoints.
 - [x] Add the provided World of Hydration artwork to the footer without changing existing site sections or behavior.
 - [x] Validate the footer artwork at desktop and mobile widths, then save the updated checkpoint.
+- [x] Harmonize the footer background and surrounding colors with the World of Hydration artwork without changing the image or other site sections.
+- [x] Validate the color integration at desktop and mobile widths, then save the updated checkpoint.
