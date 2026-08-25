@@ -9,3 +9,5 @@
 - [x] Save an updated checkpoint and deliver the project version.
 - [x] Add an accessible hero video pause/play control while preserving the cinematic autoplay background.
 - [x] Re-validate the updated homepage and media editor at mobile/tablet breakpoints.
+- [x] Add the provided World of Hydration artwork to the footer without changing existing site sections or behavior.
+- [x] Validate the footer artwork at desktop and mobile widths, then save the updated checkpoint.

@@ -174,3 +174,7 @@ h2 { margin:27px 0 28px; font:500 clamp(38px, 5vw, 70px)/1.02 var(--display); le
 .media-admin-login h1 em { color:var(--amber); font-style:normal; font-weight:300; }
 .media-admin-login a { color:var(--amber); font-size:11px; }
 @media (max-width:700px) { .media-admin header{padding:19px 22px}.media-admin header>span{display:none}.media-admin main{width:calc(100% - 44px);padding:60px 0 80px}.media-grid{grid-template-columns:1fr;margin-top:45px}.media-admin-login{padding:30px 22px} }
+
+.footer-artwork { width:100%; padding:0 0 54px; background:var(--navy); overflow:hidden; }
+.footer-artwork img { display:block; width:100%; height:auto; max-height:360px; object-fit:cover; object-position:center; }
+@media (max-width:700px) { .footer-artwork { padding-bottom:34px; } .footer-artwork img { min-height:118px; object-fit:cover; } }
