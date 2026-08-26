@@ -25,5 +25,6 @@ describe("media.list", () => {
     const intro = records.find((record) => record.sectionKey === "intro");
     expect(intro).toBeDefined();
     expect(intro?.imageUrl).toBeTruthy();
+    expect(intro?.caption).toBe("THE WORK BEHIND THE ROUTE");
   });
 });

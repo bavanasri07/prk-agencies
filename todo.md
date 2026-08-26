@@ -19,3 +19,6 @@
 - [x] Audit the homepage and media editor at mobile, tablet, and desktop widths.
 - [x] Fix responsive layout, typography, navigation, media, forms, and touch-target issues without changing the visual direction.
 - [x] Validate all target breakpoints and save an updated checkpoint.
+- [x] Verify the PRK Approach image record uses section key `intro` and is connected to the homepage image slot.
+- [x] Create or repair the `intro` database image record and validate the read path.
+- [x] Save an updated checkpoint after confirming the PRK Approach image flow.

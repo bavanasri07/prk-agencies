@@ -104,6 +104,7 @@ export async function upsertSiteMedia(input: InsertSiteMedia) {
     videoUrl: input.videoUrl ?? null,
     posterUrl: input.posterUrl ?? null,
     altText: input.altText ?? null,
+    caption: input.caption ?? null,
     isActive: input.isActive ?? 1,
   };
   await db.insert(siteMedia).values(values).onDuplicateKeyUpdate({

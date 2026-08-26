@@ -32,6 +32,7 @@ export const siteMedia = mysqlTable("siteMedia", {
   videoUrl: text("videoUrl"),
   posterUrl: text("posterUrl"),
   altText: text("altText"),
+  caption: text("caption"),
   isActive: int("isActive").default(1).notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),

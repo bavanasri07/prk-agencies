@@ -50,6 +50,7 @@ export default function Home() {
   const { data: mediaSections } = trpc.media.list.useQuery();
   const mediaByKey = new Map((mediaSections ?? []).map((item) => [item.sectionKey, item]));
   const imageFor = (key: string, fallback: string) => mediaByKey.get(key)?.imageUrl || fallback;
+  const captionFor = (key: string, fallback: string) => mediaByKey.get(key)?.caption || fallback;
   const videoFor = (key: string) => mediaByKey.get(key)?.videoUrl || null;
   const heroVideo = videoFor("hero");
   const heroPoster = imageFor("hero", ASSETS.hero);
@@ -115,7 +116,7 @@ export default function Home() {
 
         <section id="about" className="intro-section page-width section-pad reveal-section">
           <div className="intro-copy"><SectionLabel number="02">THE PRK APPROACH</SectionLabel><h2>More than supply.<br /><em>We keep businesses moving.</em></h2><p>PRK Agencies is a Trichy-based distribution and supply business serving businesses and customers with packaged drinking water, beverages, gas and other essential products.</p><a className="text-link" href="#enquiry">ABOUT PRK <ArrowRight size={17} /></a></div>
-          <div className="intro-visual"><img src={imageFor("intro", ASSETS.operations)} alt="Organized warehouse distribution activity" /><div className="image-caption"><span>THE WORK BEHIND THE ROUTE</span><span>TRICHY / 10.79° N</span></div></div>
+          <div className="intro-visual"><img src={imageFor("intro", ASSETS.operations)} alt="Organized warehouse distribution activity" /><div className="image-caption"><span>{captionFor("intro", "THE WORK BEHIND THE ROUTE")}</span><span>TRICHY / 10.79° N</span></div></div>
         </section>
 
         <section id="products" className="products-section section-pad">

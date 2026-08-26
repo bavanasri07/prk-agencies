@@ -30,6 +30,7 @@ export const appRouter = router({
         videoUrl: mediaUrl.nullable().optional(),
         posterUrl: mediaUrl.nullable().optional(),
         altText: z.string().max(500).nullable().optional(),
+        caption: z.string().max(500).nullable().optional(),
         isActive: z.number().int().min(0).max(1).optional(),
       }))
       .mutation(({ input }) => upsertSiteMedia(input)),

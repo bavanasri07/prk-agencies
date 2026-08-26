@@ -1,0 +1,1 @@
+ALTER TABLE `siteMedia` ADD `caption` text;
