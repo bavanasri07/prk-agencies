@@ -13,3 +13,9 @@
 - [x] Validate the footer artwork at desktop and mobile widths, then save the updated checkpoint.
 - [x] Harmonize the footer background and surrounding colors with the World of Hydration artwork without changing the image or other site sections.
 - [x] Validate the color integration at desktop and mobile widths, then save the updated checkpoint.
+- [ ] Diagnose why the PRK Approach `intro` image change is not working.
+- [ ] Repair the media editor save/load path and confirm the homepage reflects the `intro` record.
+- [ ] Re-test the editor and homepage, then save an updated checkpoint.
+- [x] Audit the homepage and media editor at mobile, tablet, and desktop widths.
+- [x] Fix responsive layout, typography, navigation, media, forms, and touch-target issues without changing the visual direction.
+- [x] Validate all target breakpoints and save an updated checkpoint.
