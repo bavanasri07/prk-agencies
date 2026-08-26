@@ -22,3 +22,6 @@
 - [x] Verify the PRK Approach image record uses section key `intro` and is connected to the homepage image slot.
 - [x] Create or repair the `intro` database image record and validate the read path.
 - [x] Save an updated checkpoint after confirming the PRK Approach image flow.
+- [x] Acquire and store the user-provided About image in persistent project storage.
+- [x] Update the `intro` media database record to use the replacement image.
+- [x] Validate the About section at desktop and mobile widths and save the updated checkpoint.
