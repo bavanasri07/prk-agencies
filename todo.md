@@ -25,3 +25,6 @@
 - [x] Acquire and store the user-provided About image in persistent project storage.
 - [x] Update the `intro` media database record to use the replacement image.
 - [x] Validate the About section at desktop and mobile widths and save the updated checkpoint.
+- [x] Store the uploaded WhatsApp hero video in persistent project storage.
+- [x] Update the database-backed `hero` media record to use the new video.
+- [x] Validate hero playback and responsive cropping on desktop and mobile, then save the updated checkpoint.
